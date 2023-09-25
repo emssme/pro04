@@ -1,0 +1,14 @@
+CREATE DATABASE haebeop;
+USE haebeop;
+
+CREATE TABLE test(
+	num INT AUTO_INCREMENT PRIMARY key,
+	title VARCHAR(200));
+	
+INSERT INTO test VALUES (DEFAULT, '테스트제목1');
+INSERT INTO test VALUES (DEFAULT, '테스트제목2');
+INSERT INTO test VALUES (DEFAULT, '테스트제목3');
+INSERT INTO test VALUES (DEFAULT, '테스트제목4');
+INSERT INTO test VALUES (DEFAULT, '테스트제목5');
+
+DESC test;
