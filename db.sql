@@ -12,3 +12,5 @@ INSERT INTO test VALUES (DEFAULT, '테스트제목4');
 INSERT INTO test VALUES (DEFAULT, '테스트제목5');
 
 DESC test;
+
+SELECT * FROM emp;
