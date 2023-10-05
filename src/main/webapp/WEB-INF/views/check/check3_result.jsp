@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>check1 결과</title>
+    <title>check3 결과</title>
 </head>
 <body>
-<h2>form 결과</h2>
+<h2>jQuery 결과</h2>
 <p>${id}</p>
 <p>${pw}</p>
 </body>

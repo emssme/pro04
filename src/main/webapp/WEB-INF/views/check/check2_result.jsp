@@ -7,7 +7,7 @@
     <title>check2 결과</title>
 </head>
 <body>
-<h2>check2 결과</h2>
+<h2>javascript 결과</h2>
 <p>${id}</p>
 <p>${pw}</p>
 </body>

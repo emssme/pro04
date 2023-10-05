@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>check1 결과</title>
+    <title>check6 결과</title>
 </head>
 <body>
-<h2>form 결과</h2>
-<p>${id}</p>
-<p>${pw}</p>
+<h2>hibernate Validator에서 유효성 검사 결과</h2>
+<p>${chk.id}</p>
+<p>${chk.pw}</p>
 </body>
 </html>
