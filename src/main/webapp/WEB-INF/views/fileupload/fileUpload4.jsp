@@ -84,7 +84,12 @@
             $(document).ready(function(){
                 $("#upBtn").click(function(){
                     let formData = new FormData();
-                    formData.append('file', $('#file')[0].files[0]);
+                    $(".file-field input[type='file']").each(function(){
+                        var files = this.files;
+                        for( var i = 0; i<files.length; i++){
+                            formData.append('file',files[i]);
+                        }
+                    });
                     $.ajax({
                         type : "POST",
                         enctype : "multipart/form-data",
